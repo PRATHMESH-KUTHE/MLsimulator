@@ -1,0 +1,6 @@
+{
+  "name": "ML Algorithm Simulator & MLOps Studio",
+  "description": "Interactive educational machine learning platform with real algorithmic training, step-by-step simulations, data preprocessing pipelines, and complete MLOps lifecycle tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
