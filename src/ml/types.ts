@@ -271,3 +271,23 @@ export interface DriftMetric {
   driftDetected: boolean;
   driftScore: number; // e.g. Kolmogorov-Smirnov or z-score divergence
 }
+
+// Runtime object exports for Node.js native ESM type-stripping runtime compatibility
+export const ColumnMetadata = {};
+export const Dataset = {};
+export const TaskType = {};
+export const AlgorithmId = {};
+export const PreprocessingConfig = {};
+export const PreprocessingSummary = {};
+export const PreprocessedData = {};
+export const Hyperparameters = {};
+export const RegressionMetrics = {};
+export const ClassificationMetrics = {};
+export const ClusteringMetrics = {};
+export const ModelMetrics = {};
+export const TreeNode = {};
+export const AlgorithmStepExplanation = {};
+export const ModelArtifact = {};
+export const Experiment = {};
+export const DriftMetric = {};
+

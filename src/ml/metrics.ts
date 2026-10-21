@@ -1,4 +1,4 @@
-import { ClassificationMetrics, ClusteringMetrics, RegressionMetrics } from './types.ts';
+import type { ClassificationMetrics, ClusteringMetrics, RegressionMetrics } from './types.ts';
 
 // -------------------------------------------------------------
 // Regression Metrics

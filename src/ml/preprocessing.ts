@@ -1,4 +1,4 @@
-import { PreprocessedData, PreprocessingConfig, PreprocessingSummary, TaskType } from './types.ts';
+import type { PreprocessedData, PreprocessingConfig, PreprocessingSummary, TaskType } from './types.ts';
 import { createRNG } from './datasets.ts';
 
 export function runPreprocessingPipeline(

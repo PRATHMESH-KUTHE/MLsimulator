@@ -1,4 +1,4 @@
-import { AlgorithmStepExplanation, Hyperparameters } from '../types.ts';
+import type { AlgorithmStepExplanation, Hyperparameters } from '../types.ts';
 
 export interface LogisticRegressionResult {
   weights: number[][]; // One vector per class (for OvR)

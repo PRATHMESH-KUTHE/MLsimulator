@@ -1,4 +1,4 @@
-import { AlgorithmStepExplanation, Hyperparameters } from '../types.ts';
+import type { AlgorithmStepExplanation, Hyperparameters } from '../types.ts';
 
 export interface KNNResult {
   k: number;

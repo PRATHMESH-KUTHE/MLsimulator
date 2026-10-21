@@ -1,4 +1,4 @@
-import { AlgorithmStepExplanation, Hyperparameters, TreeNode } from '../types.ts';
+import type { AlgorithmStepExplanation, Hyperparameters, TreeNode } from '../types.ts';
 
 export interface DecisionTreeResult {
   root: TreeNode;

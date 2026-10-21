@@ -100,8 +100,9 @@ if __name__ == "__main__":
 `
     : '';
 
+  const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://your-domain.vercel.app';
   const curlSnippet = selectedModel
-    ? `curl -X POST https://ais-dev-5kjuuigd6vy5m6hdtaazcn-292563392864.asia-southeast1.run.app/api/models/${selectedModel.id}/predict \\
+    ? `curl -X POST ${baseUrl}/api/models/${selectedModel.id}/predict \\
   -H "Content-Type: application/json" \\
   -d '{"rawInput": ${JSON.stringify(inferenceInputs)}}'`
     : '';

@@ -1,4 +1,4 @@
-import { Experiment, ModelArtifact } from './types.ts';
+import type { Experiment, ModelArtifact } from './types.ts';
 
 const EXPERIMENTS_KEY = 'ml_sim_experiments_v1';
 const MODELS_KEY = 'ml_sim_models_v1';

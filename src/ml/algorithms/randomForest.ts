@@ -1,4 +1,4 @@
-import { AlgorithmStepExplanation, Hyperparameters, TreeNode } from '../types.ts';
+import type { AlgorithmStepExplanation, Hyperparameters, TreeNode } from '../types.ts';
 import { createRNG } from '../datasets.ts';
 import { trainDecisionTree } from './decisionTree.ts';
 

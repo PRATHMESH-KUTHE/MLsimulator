@@ -1,4 +1,4 @@
-import { ColumnMetadata, Dataset, TaskType } from './types.ts';
+import type { ColumnMetadata, Dataset, TaskType } from './types.ts';
 
 // Deterministic Pseudo-Random Number Generator (Mulberry32)
 export function createRNG(seed: number = 42) {
